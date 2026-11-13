@@ -12,3 +12,13 @@ def riepilogo_impianti(nome_azienda: str, impianti: list[ImpiantoSolare]) -> Non
     for imp in impianti:
         if imp.modello = nome_azienda
             print(f"{imp.codice}, {imp.modello}, {imp.stato} {imp.potenza_kw}")
+    
+if __name__ = __main__:
+    impianti = list[ImpiantoSolare]
+    impianti.registra_impianto(impianti, ImpiantoSolare("3232","Pascal","Sassari",300.00,"Attivo"))
+    impianti.registra_impianto(impianti, ImpiantoSolare("2234","Pascal","Santa",300.00,"In collaudo"))
+    impianti.registra_impianto(impianti, ImpiantoSolare("1123","Comadnini","Asss",300.00,"In collaudo"))
+    impianti.registra_impianto(impianti, ImpiantoSolare("6666","Comadnini","Santa",300.00,"In installazione"))
+    
+    
+    
